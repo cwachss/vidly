@@ -3,8 +3,8 @@ import * as genresAPI from "./fakeGenreService";
 const movies = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    title: "Terminator",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    title: "Uncle Moishy",
+    genre: { _id: "5b21ca3eeb7f6fbccd471826", name: "Kids" },
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2018-01-03T19:04:28.809Z",
@@ -12,57 +12,58 @@ const movies = [
   },
   {
     _id: "5b21ca3eeb7f6fbccd471816",
-    title: "Die Hard",
+    title: "The Edge",
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 5,
     dailyRentalRate: 2.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd471817",
-    title: "Get Out",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    title: "The Gift",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Women Only" },
     numberInStock: 8,
-    dailyRentalRate: 3.5
+    dailyRentalRate: 3.5,
+    liked: true
   },
   {
     _id: "5b21ca3eeb7f6fbccd471819",
-    title: "Trip to Italy",
+    title: "Megillas Lester",
     genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
     numberInStock: 7,
     dailyRentalRate: 3.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181a",
-    title: "Airplane",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    title: "To Catch a Butterfly",
+    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Women Only" },
     numberInStock: 7,
     dailyRentalRate: 3.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181b",
-    title: "Wedding Crashers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    title: "Desparate Measures",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 7,
     dailyRentalRate: 3.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181e",
-    title: "Gone Girl",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    title: "Sisters",
+    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
     numberInStock: 7,
     dailyRentalRate: 4.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd47181f",
-    title: "The Sixth Sense",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    title: "Agent Emes",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 4,
     dailyRentalRate: 3.5
   },
   {
     _id: "5b21ca3eeb7f6fbccd471821",
-    title: "The Avengers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    title: "Marvelous Middos Machine",
+    genre: { _id: "5b21ca3eeb7f6fbccd471826", name: "Kids" },
     numberInStock: 7,
     dailyRentalRate: 3.5
   }
